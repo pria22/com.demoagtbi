@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-07T04:13:25Z" name="Default suite" finished-at="2022-09-07T04:13:37Z" duration-ms="12708">
+    <groups>
+    </groups>
+    <test started-at="2022-09-07T04:13:25Z" name="Default test" finished-at="2022-09-07T04:13:37Z" duration-ms="12708">
+      <class name="com.demoagt.tests.AboutPageTests">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.demoagt.tests.AboutPageTests@301eda63]" started-at="2022-09-07T04:13:24Z" name="setReport" finished-at="2022-09-07T04:13:25Z" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.demoagt.tests.AboutPageTests@301eda63]" started-at="2022-09-07T04:13:25Z" name="setUP" finished-at="2022-09-07T04:13:26Z" duration-ms="1395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="getCurrentPageTittle()[pri:0, instance:com.demoagt.tests.AboutPageTests@301eda63]" started-at="2022-09-07T04:13:26Z" name="getCurrentPageTittle" finished-at="2022-09-07T04:13:26Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrentPageTittle -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demoagt.tests.AboutPageTests@301eda63]" started-at="2022-09-07T04:13:26Z" name="tearDown" finished-at="2022-09-07T04:13:31Z" duration-ms="4614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getCurrentPageTittle status=SUCCESS method=AboutPageTests.getCurrentPageTittle()[pri:0, instance:com.demoagt.tests.AboutPageTests@301eda63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.demoagt.tests.AboutPageTests@301eda63]" started-at="2022-09-07T04:13:31Z" name="setUP" finished-at="2022-09-07T04:13:32Z" duration-ms="1121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="selectMenu()[pri:0, instance:com.demoagt.tests.AboutPageTests@301eda63]" started-at="2022-09-07T04:13:32Z" name="selectMenu" finished-at="2022-09-07T04:13:33Z" duration-ms="1106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMenu -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demoagt.tests.AboutPageTests@301eda63]" started-at="2022-09-07T04:13:33Z" name="tearDown" finished-at="2022-09-07T04:13:37Z" duration-ms="4445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectMenu status=SUCCESS method=AboutPageTests.selectMenu()[pri:0, instance:com.demoagt.tests.AboutPageTests@301eda63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoagt.tests.AboutPageTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

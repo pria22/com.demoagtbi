@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.demoagt.tests.AboutPageTests">
+        <methods>
+          <include name="selectMenu"/>
+          <include name="setUP"/>
+          <include name="setReport"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.demoagt.tests.AboutPageTests -->
+      <class name="com.demoagt.tests.HomePageTests">
+        <methods>
+          <include name="setUP"/>
+          <include name="testHomePageTittle"/>
+          <include name="setReport"/>
+          <include name="tearDown"/>
+          <include name="testContactUsFunctions"/>
+        </methods>
+      </class> <!-- com.demoagt.tests.HomePageTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
