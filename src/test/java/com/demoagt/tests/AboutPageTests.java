@@ -20,7 +20,7 @@ public class AboutPageTests extends BaseTest {
 
 	@Test
 	public void selectMenu() throws IOException {
-		logger=report.createTest("Using Actions Class");
+		logger=report.createTest("Test Using Actions Class");
 	             
 		aboutpage.clickAboutTab();
 		Actions a = new Actions(driver);

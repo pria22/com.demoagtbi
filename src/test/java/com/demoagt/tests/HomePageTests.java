@@ -52,7 +52,7 @@ public class HomePageTests extends BaseTest {
 	@Test
 	public void testBrokenLinks() throws MalformedURLException, IOException 
 	{
-		logger=report.createTest("Checking Broken LInks");
+		logger=report.createTest("Checking Broken Links");
 		List<WebElement> links = driver.findElements(By.cssSelector("li[id*=\"menu-item\"] a"));
 		SoftAssert a = new SoftAssert();
 		for(WebElement link:links)
